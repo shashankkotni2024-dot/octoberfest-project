@@ -5,22 +5,6 @@ Comprehensive preparation repository containing all experiments, executable sour
 ---
 
 ## 📑 Table of Experiments
-
-| Lab # | Experiment Name | Language / Tool | Key Files | Quick Execution Command (Linux/WSL) |
-| :---: | :--- | :---: | :--- | :--- |
-| **01** | [**Symbol Table Implementation**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2001%20-%20Symbol%20Table) | C (GCC) | `symbol_table.c`, `lab1_input.c` | `gcc symbol_table.c -o st && ./st` |
-| **02** | [**Lexical Analyzer (Tokenizer) in C**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2002%20-%20Lexical%20Analyzer%20in%20C) | C (GCC) | `lexical_analyzer.c`, `sample_input.c` | `gcc lexical_analyzer.c -o lexer && ./lexer sample_input.c` |
-| **03** | [**Lexical Analyzer using Lex**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2003%20-%20Lexical%20Analyzer%20using%20Lex) | Lex (FLEX) + C | `lexer.l`, `sample_input.c` | `flex lexer.l && gcc lex.yy.c -o lexer -lfl && ./lexer sample_input.c` |
-| **04** | [**Calculator using Lex**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2004%20-%20Calculator%20using%20Lex) | Lex (FLEX) + C | `calc_lex.l` | `flex calc_lex.l && gcc lex.yy.c -o calc_lex -lfl && ./calc_lex` |
-| **05** | [**FIRST and FOLLOW Sets**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2005%20-%20FIRST%20and%20FOLLOW%20Sets) | C (GCC) | `first_follow.c`, `sample_grammar.txt` | `gcc first_follow.c -o ff && ./ff < sample_grammar.txt` |
-| **06** | [**Shift-Reduce Parser**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2006%20-%20Shift-Reduce%20Parser) | C (GCC) | `shift_reduce_parser.c`, `sample_input.txt` | `gcc shift_reduce_parser.c -o srp && ./srp < sample_input.txt` |
-| **08** | [**Calculator using Lex & YACC**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2008%20-%20Calculator%20using%20Lex%20and%20YACC) | Lex + YACC / Bison | `calc.l`, `calc.y` | `yacc -d calc.y && lex calc.l && gcc y.tab.c lex.yy.c -o calc && ./calc` |
-| **09** | [**Balancing Symbols Checker**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2009%20-%20Balancing%20Symbols%20Checker) | Lex + YACC / Bison | `balance.l`, `balance.y` | `yacc -d balance.y && lex balance.l && gcc y.tab.c lex.yy.c -o balance && ./balance` |
-| **10** | [**Three-Address Code (TAC)**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2010%20-%20Three-Address%20Code%20Generation) | C (GCC) | `tac_generator.c` | `gcc tac_generator.c -o tac && ./tac` |
-| **11** | [**Code Optimization Techniques**](file:///c:/Users/shash/OneDrive/Documents/cd_labexps/Lab%20Fat%20Preparation/Lab%2011%20-%20Code%20Optimization%20Techniques) | C (GCC) | `code_optimizer.c` | `gcc code_optimizer.c -o opt && ./opt` |
-
----
-
 ## 🛠️ Environment & Prerequisites
 
 ### 1. Linux / WSL (Recommended for Lex & YACC)
